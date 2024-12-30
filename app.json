@@ -1,0 +1,37 @@
+{
+  "name": "Clickety Clack",
+  "expo": {
+    "name": "Clickety Clack",
+    "slug": "clickety-clack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#9FCCAE"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.meshall.clicketyclack"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#9FCCAE"
+      },
+      "package": "com.meshall.clicketyclack"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "14f54de3-be2a-4c3e-a961-2457a062db4a"
+      }
+    },
+    "jsEngine": "jsc"
+  }
+}
